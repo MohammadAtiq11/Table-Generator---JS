@@ -3,6 +3,11 @@
   src: url(./Fonts/Ubuntu-BoldItalic.ttf);
 }
 
+@font-face {
+  font-family: Ubuntu-Italic;
+  src: url(./Fonts/Ubuntu-Italic.ttf);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -12,6 +17,8 @@
 body {
   background-color: black;
   font-family: Ubuntu-BoldItalic;
+  background-image: url(./Images/html-css-collage-concept.jpg);
+  background-size: 100%;
 }
 
 .main {
@@ -27,12 +34,13 @@ body {
 input {
   border: none;
   width: 200px;
-  height: 28px;
+  height: 26px;
   border-radius: 5px;
   text-align: center;
   margin: 4% 0% 0% 13%;
   padding: 5px;
   transition: 0.4s;
+  font-family: Ubuntu-BoldItalic;
 
 }
 
@@ -44,6 +52,7 @@ input:hover {
   color: whitesmoke;
   transition: 0.4s;
   font-weight: bold;
+  font-family: Ubuntu-Italic;
 }
 
 
@@ -52,6 +61,7 @@ input:hover {
 
 input::placeholder {
   color: rgb(163, 154, 154);
+
 }
 
 .form-button {
@@ -90,6 +100,7 @@ button {
   left: 42.5%;
   font-weight: bold;
   transition: 0.7s;
+  font-family: Ubuntu-BoldItalic;
 }
 
 button:hover {
@@ -99,11 +110,13 @@ button:hover {
   color: black;
   transition: 0.4s;
   background-color: whitesmoke;
+  font-family: Ubuntu-Italic;
 }
 
 .para1 {
   margin: 10px auto;
   width: 330px;
+  font-family: Ubuntu-BoldItalic;
 }
 
 #p-inner {
@@ -117,6 +130,7 @@ button:hover {
   align-items: center;
   scroll-behavior: smooth;
   overflow-y: scroll;
+  font-family: Ubuntu-Italic;
 }
 
 .head {
@@ -129,5 +143,4 @@ button:hover {
 .BTA {
   color: white;
   font-size: large;
-  padding-top: 25px;
 }
