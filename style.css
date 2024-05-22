@@ -1,0 +1,133 @@
+@font-face {
+  font-family: Ubuntu-BoldItalic;
+  src: url(./Fonts/Ubuntu-BoldItalic.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: Ubuntu-BoldItalic;
+}
+
+.main {
+  margin: 3% auto;
+  background-color: rgba(88, 84, 84, 0.603);
+  box-shadow: rgba(250, 121, 216, 0.856) 0px 7px 29px 0px;
+  border-radius: 8px;
+  height: 450px;
+  width: 750px;
+}
+
+
+input {
+  border: none;
+  width: 200px;
+  height: 28px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 4% 0% 0% 13%;
+  padding: 5px;
+  transition: 0.4s;
+
+}
+
+input:hover {
+  background-color: black;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: whitesmoke;
+  transition: 0.4s;
+  font-weight: bold;
+}
+
+
+
+
+
+input::placeholder {
+  color: rgb(163, 154, 154);
+}
+
+.form-button {
+  /* border: 1px solid black; */
+  width: 30%;
+  margin: auto;
+}
+
+p {
+  border: 1px solid black;
+
+  width: 350px;
+  height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+button {
+  cursor: pointer;
+  height: 30px;
+  width: 120px;
+  border-radius: 5px;
+  border: none;
+  color: whitesmoke;
+  background-color: rgba(88, 84, 84, 0.603);
+  /* margin: 46% 0% 58% 42%; */
+  position: relative;
+  top: 100%;
+  left: 42.5%;
+  font-weight: bold;
+  transition: 0.7s;
+}
+
+button:hover {
+  transition: 0.7s;
+  font-weight: bold;
+  border-radius: 10px;
+  color: black;
+  transition: 0.4s;
+  background-color: whitesmoke;
+}
+
+.para1 {
+  margin: 10px auto;
+  width: 330px;
+}
+
+#p-inner {
+  margin: 10px auto;
+  width: 350px;
+  height: 370px;
+  color: rgb(255, 255, 255);
+  font-size: 250%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
+.head {
+  color: white;
+  text-align: center;
+  font-size: large;
+  padding-top: 25px;
+}
+
+.BTA {
+  color: white;
+  font-size: large;
+  padding-top: 25px;
+}
